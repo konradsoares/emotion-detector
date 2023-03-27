@@ -12,7 +12,7 @@ from keras.optimizers import Adam, SGD
 from keras.regularizers import l1, l2
 from sklearn.metrics import confusion_matrix
 
-df = pd.read_csv('fer2013.csv')
+df = pd.read_csv('fer2023.csv')
 df.head()
 X_train = []
 y_train = []
